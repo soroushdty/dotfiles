@@ -1,0 +1,168 @@
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
+# Lines configured by zsh-newuser-install
+HISTFILE=~/.histfile
+HISTSIZE=1000
+SAVEHIST=1000
+setopt autocd
+bindkey -e
+# End of lines configured by zsh-newuser-install
+# The following lines were added by compinstall
+zstyle ':completion:*' menu select
+
+autoload -Uz compinit
+compinit
+# End of lines added by compinstall
+source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+bindkey "^[[3~" delete-char
+
+autoload -Uz up-line-or-beginning-search down-line-or-beginning-search
+zle -N up-line-or-beginning-search
+zle -N down-line-or-beginning-search
+
+[[ -n "${key[Up]}"   ]] && bindkey -- "${key[Up]}"   up-line-or-beginning-search
+[[ -n "${key[Down]}" ]] && bindkey -- "${key[Down]}" down-line-or-beginning-search
+
+# COMMAND NOT FOUND PLUGIN
+
+function command_not_found_handler {
+    local purple='\e[1;35m' bright='\e[0;1m' green='\e[1;32m' reset='\e[0m'
+    printf 'zsh: command not found: %s\n' "$1"
+    local entries=(
+        ${(f)"$(/usr/bin/pacman -F --machinereadable -- "/usr/bin/$1")"}
+    )
+    if (( ${#entries[@]} ))
+    then
+        printf "${bright}$1${reset} may be found in the following packages:\n"
+        local pkg
+        for entry in "${entries[@]}"
+        do
+            # (repo package version file)
+            local fields=(
+                ${(0)entry}
+            )
+            if [[ "$pkg" != "${fields[2]}" ]]
+            then
+                printf "${purple}%s/${bright}%s ${green}%s${reset}\n" "${fields[1]}" "${fields[2]}" "${fields[3]}"
+            fi
+            printf '    /%s\n' "${fields[4]}"
+            pkg="${fields[2]}"
+        done
+    fi
+    return 127
+}
+
+
+# ZSH PLUGINS
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/share/zsh/plugins/zsh-sudo/sudo.plugin.zsh
+source /usr/share/doc/pkgfile/command-not-found.zsh
+
+# GO PATH
+export GOPATH=$HOME/Documents/go
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+
+# change default text editor to nano
+export VISUAL=nano
+export EDITOR="$VISUAL"
+# MY ALIASES
+
+# PACMAN
+
+alias pS='sudo pacman -S'		# Install package
+alias pR='sudo pacman -R'		# Remove package
+alias pQs='pacman -Qs'			# Search local package
+alias pSs='pacman -Ss'			# Search remote package
+alias pSi='pacman -Si'			# Info remote package
+alias pQi='pacman -Qi'			# Info local package
+alias pSyu='sudo pacman -Syu'		# Update & upgrade
+alias pSg='pacman -Sg'			# Find packages belonging to a group
+alias pRs='sudo pacman -Rs'		# Remove package plus orphan dependencies
+alias pRsu='sudo pacman -Rsu'		# Remove package plus all dependencies
+alias pRsc='sudo pacman -Rsc'		# Remove package plus all dependencies and packages depending on it
+alias pRdd='sudo pacman -Rdd'		# Remove dependency package without removing the upstream package
+alias pF='pacman -F'			# Search for package file names in remote packages
+alias pQl='pacman -Ql'			# List files installed by local package
+alias pFl='pacman -Fl'			# List files installed by remote package
+alias pQdt='pacman -Qdt'		# List orphan packages
+alias pQet='pacman -Qet'		# List all packages explicitly installed and not required as dependencies
+alias pSc='sudo pacman -Sc'		# Remove all the cached packages that are not currently installed, and the unused sync database
+alias pSw='sudo pacman -Sw'		# Download a package without installing it
+alias pU='sudo pacman -U'		# Install local/remote package *.pkg.tar.zst
+alias pSa='sudo pacman -S --asdeps'	# Install package flagged as dependency
+alias pQe='pacman -Qe'			# List explicitly-installed packages
+alias pQd='pacman -Qd'			# List dependency packages
+alias pDa='sudo pacman -D --asdeps'	# Flag previously installed package as dependency
+alias pDe='sudo pacman -D --asexplicit'	# Flag previously  installed package as explicit
+alias pFy='sudo pacman -Fy'		# Sync file database
+alias pF='pacman -F'			# Search for package containing a file
+alias pconf='sudo nano /etc/pacman.conf'# Pacman Configuration File Edit
+alias ys='yay -S'			# Install from AUR
+alias pcr='sudo paccache -r'		# Delete all cached versions of packages except the last three
+alias pcr1='sudo paccache -rk1'		# Delete all cached versions of packages except the last one
+alias pcu='sudo paccache -ruk0'		# Remove all cached versions of uninstalled packages
+
+# SYSTEMD
+
+alias scen='sudo systemctl enable --now'	# Enable+Start Unit
+alias scdn='sudo systemctl disable --now' 	# Disable+Stop Unit
+alias sce='sudo systemctl enable'		# Enable Unit
+alias scd='sudo systemctl disable'		# Disable Unit
+alias scs='sudo systemctl start'		# Start Unit
+alias scp='sudo systemctl stop'			# Stop Unit
+alias scr='sudo systemctl restart'		# Restart Unit
+alias scrl='sudo systemctl reload'		# Reload Unit
+alias sct='sudo systemctl status'		# Check Unit Status
+alias sclu='systemctl list-units'		# List all running units
+alias scsp='systemctl status pid'		# Show process status for PID
+alias sch='systemctl help'			# Show unit manual page
+alias scm='sudo systemctl mask'			# Mask a unit
+alias scum='sudo systemctl unmask'		# Unmask a unit
+
+
+# ROOT ACCESS
+
+alias sn='sudo nano'		# Nano with root access
+alias sv='sudo vim'		# Vim with root access
+alias sc='sudo cp'		# Copy with root access
+alias sm='sudo mv'		# Move with root access
+alias srr='sudo rm -r'		# Remove with root access
+alias sudo='sudo -v; sudo '	# Refresh the timeout every time you use sudo
+
+
+# LISTING
+
+alias ll='ls -lh'	# Show list
+alias la='ls -lha'	# Show list plus hidden files
+
+
+# GRUB
+
+alias updategrub='sudo grub-mkconfig -o /boot/grub/grub.cfg'	# Update GRUB after edit
+
+
+# GIT
+alias gc='git clone'
+
+# TIMESHIFT
+
+alias tc='sudo timeshift --create --comments'	# Create snapshot (Don't forget "THE NAME " !!!)
+alias tr='sudo timeshift --restore'		# Restore snapshot (interactive)
+alias tl='sudo timeshift --list'		# List all snapshots
+alias td='sudo timeshift --delete'		# Deelete a snapshot (interactive)
+
+# ZSH CONFIGURATIONS
+
+alias zconf='nano ~/.zshrc'				# Edit ZSH config file
+alias zs='source ~/.zshrc'				# Source ZSH config file
+alias za="awk '/# MY ALIASES/,0' ~/.zshrc"		# List all my ZSH aliases
