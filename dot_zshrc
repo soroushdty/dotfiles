@@ -75,6 +75,8 @@ export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 # change default text editor to nano
 export VISUAL=nano
 export EDITOR="$VISUAL"
+
+
 # MY ALIASES
 
 # PACMAN
@@ -159,10 +161,9 @@ alias gc='git clone'
 alias tc='sudo timeshift --create --comments'	# Create snapshot (Don't forget "THE NAME " !!!)
 alias tr='sudo timeshift --restore'		# Restore snapshot (interactive)
 alias tl='sudo timeshift --list'		# List all snapshots
-alias td='sudo timeshift --delete'		# Deelete a snapshot (interactive)
+alias td='sudo timeshift --delete'		# Delete a snapshot (interactive)
 
 # ZSH CONFIGURATIONS
 
-alias zconf='nano ~/.zshrc'				# Edit ZSH config file
 alias zs='source ~/.zshrc'				# Source ZSH config file
 alias za="awk '/# MY ALIASES/,0' ~/.zshrc"		# List all my ZSH aliases
