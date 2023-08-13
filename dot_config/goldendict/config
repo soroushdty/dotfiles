@@ -1,0 +1,305 @@
+<config>
+ <paths>
+  <path recursive="0">/home/soroush/windows/Users/sorou/Documents/Dict</path>
+ </paths>
+ <sounddirs/>
+ <dictionaryOrder id="0" name="">
+  <dictionary name="A Dictionary of Alternative-Medicine Methods">0e0b43111d572d138d9f05c63bd1ac7f</dictionary>
+  <dictionary name="Aids Glossary">0a44f5a9106415cdd1404f5e4635c58d</dictionary>
+  <dictionary name="Medical Encyclopedia">e9cffcaef55ca46c2f48cae587a65a39</dictionary>
+  <dictionary name="Bioglossary">d82c9f3a0cead847e45225c22d3509c5</dictionary>
+  <dictionary name="Biology Glossary">eefa8752427ac45c710d487dd0ac9607</dictionary>
+  <dictionary name="Britannica Concise Encyclopedia">1939a6af5561a1909cc549c54a02ac60</dictionary>
+  <dictionary name="Common Terms in Evolutionary Biology and Genetics">f70a7212c5b90ff5dd403a39a46b0e8d</dictionary>
+  <dictionary name="dictionary idioms">6a26554cd8365bcdd41225a3351cf6df</dictionary>
+  <dictionary name="Dictionary of Cancer Terms">5d79d12886798a90e50ad5acdad0af34</dictionary>
+  <dictionary name="Dictionary of Medicine (Shahram)">478f5b534c5aa1286fc04ea657e216e2</dictionary>
+  <dictionary name="Digestive Diseases Dictionary">137e40b73405ba970c75b03fab360b10</dictionary>
+  <dictionary name="Farajbeik Farsi ( Windows Farsi )">9880b91dd4f7608ba5f24d64cd841caa</dictionary>
+  <dictionary name="General Chemistry Glossary">f72f0f0b9b9f6080d6ca0d90c8fc0e59</dictionary>
+  <dictionary name="Glossary of HIV/AIDS-Related Terms">5737db41bb283a4554da1b0d928f427a</dictionary>
+  <dictionary name="Glossary of HIV/AIDS Terms">ed3f5d725da6ed193f673e4d60ab53ee</dictionary>
+  <dictionary name="health surveillance for women infants and children">f55df077b8c45eb7d28a1c38e2be6422</dictionary>
+  <dictionary name="Hepatitis Central (TM) Liver Disease Medical Glossary">e516a9de7280f0952a53244991620b42</dictionary>
+  <dictionary name="HIV Vaccine Glossary">8833a4bae4d9d9709fd562c7e376d080</dictionary>
+  <dictionary name="Kidney Diseases Dictionary">2495fce4ba2bf5a412293c4989a8635d</dictionary>
+  <dictionary name="MB_Dictionary  of English-Persian">39ccbdf25c0c5685f9c13799cfee0c43</dictionary>
+  <dictionary name="Merriam Webster's Medical Desk Dictionary">1008cf8e8bc38f07ccf627dee4e89b55</dictionary>
+  <dictionary name="MHM Advanced English > Persian Dictionary">249016ca962cfa6b0a49f15ef460f31d</dictionary>
+  <dictionary name="MHM Persian > English Dictionary">efa5a7e31c38e95fb48e87cd3d50a4ce</dictionary>
+  <dictionary name="Pesian To English advanced">ab6a91295e27bd6985c8833b7f2579b4</dictionary>
+  <dictionary name="Salaty English-Farsi Dict. (Text ver.)">bc78f1179627f396f8f2d8dc65ae3f83</dictionary>
+  <dictionary name="The TCRC Glossary for Testicular Cancer and Other Related Conditons">ab934911fadbd5a19967a107b1d3fa87</dictionary>
+  <dictionary name="Tumor Terminology">a4f67d97d7f4d813f2ecfd1eb5db276b</dictionary>
+  <dictionary name="American Heritage Dictionary 4th Ed. (En-En)">120beabe7b08dbe05b42d9c422d1eab3</dictionary>
+  <dictionary name="American Idioms">c6ff2c3aaeab4e56ee2e8439ea32077f</dictionary>
+  <dictionary name="Babylon English-English">7eb5092caddc11fe6aec112d60b84552</dictionary>
+  <dictionary name="Cambridge Advanced Learner's Dictionary">366c1fea799d21c94ecab3e044dbb27f</dictionary>
+  <dictionary name="Collins COBUILD Advanced Learner's English Dictionary">5b44c3b7d74c8355f12ddc9d14ddba28</dictionary>
+  <dictionary name="Concise Oxford English Dictionary">fa60ed7b293fbb8d2f5135c03d395dc8</dictionary>
+  <dictionary name="Concise Oxford Thesaurus">59453ee15a3fc5ca8c98b71b133fac11</dictionary>
+  <dictionary name="Bahraini English - Farsi Health Dictionary">e7292d7911821eb10165d9643ffe15ec</dictionary>
+  <dictionary name="Longman Dictionary of Contemporary English">bfd9394d8df7e04132f465bcfd9967c2</dictionary>
+  <dictionary name="Macmillan English Dictionary (En-En)">c4ddfadd6228cd040c1a4f2400bb5216</dictionary>
+  <dictionary name="Macmillan English Thesaurus (En-En)">488fabc7c7c0bccdf32d2dcaa7ae9954</dictionary>
+  <dictionary name="Merriam-Webster's Advanced Learner's Dictionary (En-En)">f1b0be74485bc94bf30deba309cf54cd</dictionary>
+  <dictionary name="Merriam-Webster's Collegiate 11th Ed. (En-En)">b53d42cf9c41fcecdbd373db792c12f3</dictionary>
+  <dictionary name="Merriam-Webster's Collegiate Thesaurus (En-En)">059516f643bcb902c04e24902722e5d4</dictionary>
+  <dictionary name="Merrian Webster 10th dictionary">ec6a3322d85c79c23bbaed69d052d361</dictionary>
+  <dictionary name="Morteza English > Farsi">5e486c5f82eb53b049fef38cf928e0e2</dictionary>
+  <dictionary name="Most Common Acronyms and Abbreviations">f90471d7c55da6c4faf87f8199b93ee2</dictionary>
+  <dictionary name="Ourstat - Farsi to English Dictionary">59e970fba933fd534dc8619243daa324</dictionary>
+  <dictionary name="Oxford Advanced learner's Dictionary">ea6aca27dc9a1a0f5bf748c6fd38f4f1</dictionary>
+  <dictionary name="The Oxford World Encyclopedia">019ec643dde96b5fcfde4cc0a8f444f4</dictionary>
+  <mutedDictionaries/>
+ </dictionaryOrder>
+ <inactiveDictionaries id="0" name="">
+  <mutedDictionaries/>
+ </inactiveDictionaries>
+ <groups nextId="6">
+  <group id="1" name="en-en">
+   <dictionary name="Merriam Webster's Medical Desk Dictionary">1008cf8e8bc38f07ccf627dee4e89b55</dictionary>
+   <dictionary name="Dictionary of Medicine (Shahram)">478f5b534c5aa1286fc04ea657e216e2</dictionary>
+   <dictionary name="Merrian Webster 10th dictionary">ec6a3322d85c79c23bbaed69d052d361</dictionary>
+   <dictionary name="Cambridge Advanced Learner's Dictionary">366c1fea799d21c94ecab3e044dbb27f</dictionary>
+   <dictionary name="Oxford Advanced learner's Dictionary">ea6aca27dc9a1a0f5bf748c6fd38f4f1</dictionary>
+   <dictionary name="Longman Dictionary of Contemporary English">bfd9394d8df7e04132f465bcfd9967c2</dictionary>
+   <dictionary name="American Heritage Dictionary 4th Ed. (En-En)">120beabe7b08dbe05b42d9c422d1eab3</dictionary>
+   <dictionary name="Babylon English-English">7eb5092caddc11fe6aec112d60b84552</dictionary>
+   <dictionary name="Concise Oxford English Dictionary">fa60ed7b293fbb8d2f5135c03d395dc8</dictionary>
+   <dictionary name="Collins COBUILD Advanced Learner's English Dictionary">5b44c3b7d74c8355f12ddc9d14ddba28</dictionary>
+   <dictionary name="Macmillan English Dictionary (En-En)">c4ddfadd6228cd040c1a4f2400bb5216</dictionary>
+   <dictionary name="Most Common Acronyms and Abbreviations">f90471d7c55da6c4faf87f8199b93ee2</dictionary>
+   <dictionary name="Merriam-Webster's Advanced Learner's Dictionary (En-En)">f1b0be74485bc94bf30deba309cf54cd</dictionary>
+   <dictionary name="American Idioms">c6ff2c3aaeab4e56ee2e8439ea32077f</dictionary>
+   <mutedDictionaries/>
+  </group>
+  <group id="2" name="en-fa">
+   <dictionary name="Farajbeik Farsi ( Windows Farsi )">9880b91dd4f7608ba5f24d64cd841caa</dictionary>
+   <dictionary name="Bahraini English - Farsi Health Dictionary">e7292d7911821eb10165d9643ffe15ec</dictionary>
+   <dictionary name="MB_Dictionary  of English-Persian">39ccbdf25c0c5685f9c13799cfee0c43</dictionary>
+   <dictionary name="Salaty English-Farsi Dict. (Text ver.)">bc78f1179627f396f8f2d8dc65ae3f83</dictionary>
+   <dictionary name="Morteza English > Farsi">5e486c5f82eb53b049fef38cf928e0e2</dictionary>
+   <dictionary name="MHM Advanced English > Persian Dictionary">249016ca962cfa6b0a49f15ef460f31d</dictionary>
+   <dictionary name="dictionary idioms">6a26554cd8365bcdd41225a3351cf6df</dictionary>
+   <dictionary name="Biology Glossary">eefa8752427ac45c710d487dd0ac9607</dictionary>
+   <mutedDictionaries/>
+  </group>
+  <group id="3" name="fa-en">
+   <dictionary name="MHM Persian > English Dictionary">efa5a7e31c38e95fb48e87cd3d50a4ce</dictionary>
+   <dictionary name="Ourstat - Farsi to English Dictionary">59e970fba933fd534dc8619243daa324</dictionary>
+   <dictionary name="Pesian To English advanced">ab6a91295e27bd6985c8833b7f2579b4</dictionary>
+   <mutedDictionaries/>
+  </group>
+  <group id="4" name="encyclopedia">
+   <dictionary name="Britannica Concise Encyclopedia">1939a6af5561a1909cc549c54a02ac60</dictionary>
+   <dictionary name="The Oxford World Encyclopedia">019ec643dde96b5fcfde4cc0a8f444f4</dictionary>
+   <dictionary name="Medical Encyclopedia">e9cffcaef55ca46c2f48cae587a65a39</dictionary>
+   <dictionary name="A Dictionary of Alternative-Medicine Methods">0e0b43111d572d138d9f05c63bd1ac7f</dictionary>
+   <dictionary name="Aids Glossary">0a44f5a9106415cdd1404f5e4635c58d</dictionary>
+   <dictionary name="Bioglossary">d82c9f3a0cead847e45225c22d3509c5</dictionary>
+   <dictionary name="Dictionary of Cancer Terms">5d79d12886798a90e50ad5acdad0af34</dictionary>
+   <dictionary name="Digestive Diseases Dictionary">137e40b73405ba970c75b03fab360b10</dictionary>
+   <dictionary name="Common Terms in Evolutionary Biology and Genetics">f70a7212c5b90ff5dd403a39a46b0e8d</dictionary>
+   <dictionary name="General Chemistry Glossary">f72f0f0b9b9f6080d6ca0d90c8fc0e59</dictionary>
+   <dictionary name="Glossary of HIV/AIDS-Related Terms">5737db41bb283a4554da1b0d928f427a</dictionary>
+   <dictionary name="Glossary of HIV/AIDS Terms">ed3f5d725da6ed193f673e4d60ab53ee</dictionary>
+   <dictionary name="health surveillance for women infants and children">f55df077b8c45eb7d28a1c38e2be6422</dictionary>
+   <dictionary name="Hepatitis Central (TM) Liver Disease Medical Glossary">e516a9de7280f0952a53244991620b42</dictionary>
+   <dictionary name="HIV Vaccine Glossary">8833a4bae4d9d9709fd562c7e376d080</dictionary>
+   <dictionary name="Kidney Diseases Dictionary">2495fce4ba2bf5a412293c4989a8635d</dictionary>
+   <dictionary name="The TCRC Glossary for Testicular Cancer and Other Related Conditons">ab934911fadbd5a19967a107b1d3fa87</dictionary>
+   <dictionary name="Tumor Terminology">a4f67d97d7f4d813f2ecfd1eb5db276b</dictionary>
+   <mutedDictionaries/>
+  </group>
+  <group id="5" name="thesaurus">
+   <dictionary name="Concise Oxford Thesaurus">59453ee15a3fc5ca8c98b71b133fac11</dictionary>
+   <dictionary name="Macmillan English Thesaurus (En-En)">488fabc7c7c0bccdf32d2dcaa7ae9954</dictionary>
+   <dictionary name="Merriam-Webster's Collegiate Thesaurus (En-En)">059516f643bcb902c04e24902722e5d4</dictionary>
+   <mutedDictionaries/>
+  </group>
+ </groups>
+ <hunspell dictionariesPath=""/>
+ <transliteration>
+  <enableRussianTransliteration>0</enableRussianTransliteration>
+  <enableGermanTransliteration>0</enableGermanTransliteration>
+  <enableGreekTransliteration>0</enableGreekTransliteration>
+  <enableBelarusianTransliteration>0</enableBelarusianTransliteration>
+  <chinese>
+   <enable>0</enable>
+   <enableSCToTWConversion>1</enableSCToTWConversion>
+   <enableSCToHKConversion>1</enableSCToHKConversion>
+   <enableTCToSCConversion>1</enableTCToSCConversion>
+  </chinese>
+  <romaji>
+   <enable>0</enable>
+   <enableHepburn>1</enableHepburn>
+   <enableNihonShiki>0</enableNihonShiki>
+   <enableKunreiShiki>0</enableKunreiShiki>
+   <enableHiragana>1</enableHiragana>
+   <enableKatakana>1</enableKatakana>
+  </romaji>
+  <customtrans>
+   <enable>0</enable>
+   <context></context>
+  </customtrans>
+ </transliteration>
+ <lingua>
+  <enable>0</enable>
+  <languageCodes></languageCodes>
+ </lingua>
+ <forvo>
+  <enable>0</enable>
+  <apiKey></apiKey>
+  <languageCodes></languageCodes>
+ </forvo>
+ <mediawikis>
+  <mediawiki enabled="0" icon="" id="ae6f89aac7151829681b85f035d54e48" name="English Wikipedia" url="https://en.wikipedia.org/w"/>
+  <mediawiki enabled="0" icon="" id="affcf9678e7bfe701c9b071f97eccba3" name="English Wiktionary" url="https://en.wiktionary.org/w"/>
+  <mediawiki enabled="0" icon="" id="8e0c1c2b6821dab8bdba8eb869ca7176" name="Russian Wikipedia" url="https://ru.wikipedia.org/w"/>
+  <mediawiki enabled="0" icon="" id="b09947600ae3902654f8ad4567ae8567" name="Russian Wiktionary" url="https://ru.wiktionary.org/w"/>
+  <mediawiki enabled="0" icon="" id="a8a66331a1242ca2aeb0b4aed361c41d" name="German Wikipedia" url="https://de.wikipedia.org/w"/>
+  <mediawiki enabled="0" icon="" id="21c64bca5ec10ba17ff19f3066bc962a" name="German Wiktionary" url="https://de.wiktionary.org/w"/>
+  <mediawiki enabled="0" icon="" id="96957cb2ad73a20c7a1d561fc83c253a" name="Portuguese Wikipedia" url="https://pt.wikipedia.org/w"/>
+  <mediawiki enabled="0" icon="" id="ed4c3929196afdd93cc08b9a903aad6a" name="Portuguese Wiktionary" url="https://pt.wiktionary.org/w"/>
+  <mediawiki enabled="0" icon="" id="f3b4ec8531e52ddf5b10d21e4577a7a2" name="Greek Wikipedia" url="https://el.wikipedia.org/w"/>
+  <mediawiki enabled="0" icon="" id="5d45232075d06e002dea72fe3e137da1" name="Greek Wiktionary" url="https://el.wiktionary.org/w"/>
+ </mediawikis>
+ <websites>
+  <website enabled="0" icon="" id="b88cb2898e634c6638df618528284c2d" inside_iframe="0" name="Google En-En (Oxford)" url="https://www.google.com/search?q=define:%GDWORD%&amp;hl=en"/>
+  <website enabled="0" icon="" id="f376365a0de651fd7505e7e5e683aa45" inside_iframe="0" name="Urban Dictionary" url="https://www.urbandictionary.com/define.php?term=%GDWORD%"/>
+  <website enabled="0" icon="" id="324ca0306187df7511b26d3847f4b07c" inside_iframe="0" name="Multitran (En-Ru)" url="https://www.multitran.com/m.exe?s=%GDWORD%&amp;l1=1&amp;l2=2"/>
+  <website enabled="0" icon="" id="379a0ce02a34747d642cb0d7de1b2882" inside_iframe="0" name="Merriam-Webster (En)" url="https://www.merriam-webster.com/dictionary/%GDWORD%"/>
+ </websites>
+ <dictservers>
+  <server databases="wn" enabled="0" icon="" id="6eb6f7a1df225e1cfdcd4cf8e9e4771b" name="dict.org" strategies="" url="dict://dict.org"/>
+ </dictservers>
+ <programs>
+  <program commandLine="festival --tts" enabled="0" icon="" id="428b4c2b905ef568a43d9a16f59559b0" name="Festival" type="0"/>
+  <program commandLine="espeak %GDWORD%" enabled="0" icon="" id="2cf8b3a60f27e1ac812de0b57c148340" name="Espeak" type="0"/>
+  <program commandLine="man -a --html=/bin/cat %GDWORD%" enabled="0" icon="" id="4f898f7582596cea518c6b0bfdceb8b3" name="Manpages" type="2"/>
+ </programs>
+ <voiceEngines/>
+ <mutedDictionaries/>
+ <popupMutedDictionaries/>
+ <preferences>
+  <interfaceLanguage></interfaceLanguage>
+  <customFonts monospace="Adobe Courier" sans-serif="Noto Sans" serif="Noto Serif" standard="Noto Serif"/>
+  <displayStyle></displayStyle>
+  <interfaceStyle>Default</interfaceStyle>
+  <newTabsOpenAfterCurrentOne>0</newTabsOpenAfterCurrentOne>
+  <newTabsOpenInBackground>1</newTabsOpenInBackground>
+  <hideSingleTab>0</hideSingleTab>
+  <mruTabOrder>0</mruTabOrder>
+  <hideMenubar>0</hideMenubar>
+  <enableTrayIcon>1</enableTrayIcon>
+  <startToTray>1</startToTray>
+  <closeToTray>1</closeToTray>
+  <autoStart>0</autoStart>
+  <doubleClickTranslates>1</doubleClickTranslates>
+  <selectWordBySingleClick>0</selectWordBySingleClick>
+  <autoScrollToTargetArticle>1</autoScrollToTargetArticle>
+  <escKeyHidesMainWindow>0</escKeyHidesMainWindow>
+  <darkMode>0</darkMode>
+  <darkReaderMode>0</darkReaderMode>
+  <zoomFactor>1</zoomFactor>
+  <helpZoomFactor>1</helpZoomFactor>
+  <wordsZoomLevel>0</wordsZoomLevel>
+  <enableMainWindowHotkey>0</enableMainWindowHotkey>
+  <mainWindowHotkey>Ctrl+F11, F11</mainWindowHotkey>
+  <enableClipboardHotkey>1</enableClipboardHotkey>
+  <clipboardHotkey>Ctrl+G</clipboardHotkey>
+  <startWithScanPopupOn>0</startWithScanPopupOn>
+  <enableScanPopupModifiers>0</enableScanPopupModifiers>
+  <scanPopupModifiers>0</scanPopupModifiers>
+  <ignoreOwnClipboardChanges>0</ignoreOwnClipboardChanges>
+  <scanToMainWindow>0</scanToMainWindow>
+  <ignoreDiacritics>0</ignoreDiacritics>
+  <ignorePunctuation>1</ignorePunctuation>
+  <sessionCollapse>0</sessionCollapse>
+  <trackClipboardScan>1</trackClipboardScan>
+  <trackSelectionScan>1</trackSelectionScan>
+  <showScanFlag>0</showScanFlag>
+  <selectionChangeDelayTimer>500</selectionChangeDelayTimer>
+  <pronounceOnLoadMain>0</pronounceOnLoadMain>
+  <pronounceOnLoadPopup>0</pronounceOnLoadPopup>
+  <useInternalPlayer>1</useInternalPlayer>
+  <internalPlayerBackend>FFmpeg</internalPlayerBackend>
+  <audioPlaybackProgram>mplayer</audioPlaybackProgram>
+  <alwaysOnTop>0</alwaysOnTop>
+  <searchInDock>0</searchInDock>
+  <historyStoreInterval>0</historyStoreInterval>
+  <favoritesStoreInterval>0</favoritesStoreInterval>
+  <confirmFavoritesDeletion>1</confirmFavoritesDeletion>
+  <proxyserver enabled="0" useSystemProxy="0">
+   <type>0</type>
+   <host></host>
+   <port>3128</port>
+   <user></user>
+   <password></password>
+   <systemProxyUser></systemProxyUser>
+   <systemProxyPassword></systemProxyPassword>
+  </proxyserver>
+  <ankiConnectServer enabled="0">
+   <host>127.0.0.1</host>
+   <port>8765</port>
+   <deck></deck>
+   <model></model>
+   <text>selected_text</text>
+   <word>word</word>
+   <sentence>marked_sentence</sentence>
+  </ankiConnectServer>
+  <checkForNewReleases>1</checkForNewReleases>
+  <disallowContentFromOtherSites>0</disallowContentFromOtherSites>
+  <hideGoldenDictHeader>0</hideGoldenDictHeader>
+  <maxNetworkCacheSize>50</maxNetworkCacheSize>
+  <clearNetworkCacheOnExit>1</clearNetworkCacheOnExit>
+  <maxStringsInHistory>500</maxStringsInHistory>
+  <storeHistory>1</storeHistory>
+  <alwaysExpandOptionalParts>1</alwaysExpandOptionalParts>
+  <addonStyle></addonStyle>
+  <collapseBigArticles>0</collapseBigArticles>
+  <articleSizeLimit>2000</articleSizeLimit>
+  <limitInputPhraseLength>0</limitInputPhraseLength>
+  <inputPhraseLengthLimit>1000</inputPhraseLengthLimit>
+  <maxDictionaryRefsInContextMenu>20</maxDictionaryRefsInContextMenu>
+  <synonymSearchEnabled>1</synonymSearchEnabled>
+  <stripClipboard>0</stripClipboard>
+  <raiseWindowOnSearch>1</raiseWindowOnSearch>
+  <fullTextSearch>
+   <searchMode>0</searchMode>
+   <dialogGeometry></dialogGeometry>
+   <disabledTypes></disabledTypes>
+   <enabled>1</enabled>
+   <enablePosition>0</enablePosition>
+   <maxDictionarySize>0</maxDictionarySize>
+   <parallelThreads>1</parallelThreads>
+  </fullTextSearch>
+ </preferences>
+ <lastMainGroupId>0</lastMainGroupId>
+ <lastPopupGroupId>0</lastPopupGroupId>
+ <popupWindowState>AAAA/wAAAAD9AAAAAAAAAgUAAAGTAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAQAAAAEAAAAaAGQAaQBjAHQAaQBvAG4AYQByAHkAQgBhAHIDAAAAAP////8AAAAAAAAAAA==</popupWindowState>
+ <popupWindowGeometry>AdnQywADAAAAAADMAAAAtgAAAvgAAAJIAAAAzAAAALYAAAL4AAACSAAAAAAAAAAABVgAAADMAAAAtgAAAvgAAAJI</popupWindowGeometry>
+ <pinPopupWindow>0</pinPopupWindow>
+ <popupWindowAlwaysOnTop>1</popupWindowAlwaysOnTop>
+ <mainWindowState>AAAA/wAAAAD9AAAAAgAAAAAAAABcAAAB3fwCAAAAAfsAAAAUAHMAZQBhAHIAYwBoAFAAYQBuAGUAAAAAPQAAAd0AAACKAP///wAAAAEAAADMAAACjfwCAAAAA/sAAAASAGQAaQBjAHQAcwBQAGEAbgBlAQAAAD0AAADWAAAAYwD////7AAAAGgBmAGEAdgBvAHIAaQB0AGUAcwBQAGEAbgBlAQAAARkAAADVAAAAYwD////7AAAAFgBoAGkAcwB0AG8AcgB5AFAAYQBuAGUBAAAB9AAAANYAAABjAP///wAABIYAAAKNAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAUAG4AYQB2AFQAbwBvAGwAYgBhAHIBAAAAAP////8AAAAAAAAAAAAAABoAZABpAGMAdABpAG8AbgBhAHIAeQBCAGEAcgEAAAK7/////wAAAAAAAAAA</mainWindowState>
+ <mainWindowGeometry>AdnQywADAAAAAAAAAAAANgAABVUAAAL/AAAAAAAAADYAAAVVAAAC/wAAAAACAAAABVgAAAAAAAAANgAABVUAAAL/</mainWindowGeometry>
+ <dictInfoGeometry></dictInfoGeometry>
+ <inspectorGeometry></inspectorGeometry>
+ <dictionariesDialogGeometry>AdnQywADAAAAAADUAAAAVwAABFYAAAKMAAAA1gAAAHcAAARUAAACigAAAAAAAAAABVgAAADWAAAAdwAABFQAAAKK</dictionariesDialogGeometry>
+ <timeForNewReleaseCheck></timeForNewReleaseCheck>
+ <skippedRelease></skippedRelease>
+ <showingDictBarNames>0</showingDictBarNames>
+ <usingSmallIconsInToolbars>0</usingSmallIconsInToolbars>
+ <editDictionaryCommandLine></editDictionaryCommandLine>
+ <maxPictureWidth>0</maxPictureWidth>
+ <maxHeadwordSize>256</maxHeadwordSize>
+ <maxHeadwordsToExpand>0</maxHeadwordsToExpand>
+ <headwordsDialog>
+  <searchMode>0</searchMode>
+  <matchCase>0</matchCase>
+  <autoApply>0</autoApply>
+  <headwordsExportPath></headwordsExportPath>
+  <headwordsDialogGeometry></headwordsDialogGeometry>
+ </headwordsDialog>
+</config>
