@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="int" value="2"/>
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+    <property name="dark-mode" type="bool" value="true"/>
+    <property name="panel-1" type="empty">
+      <property name="position" type="string" value="p=6;x=0;y=0"/>
+      <property name="length" type="uint" value="100"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="icon-size" type="uint" value="16"/>
+      <property name="size" type="uint" value="22"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="1"/>
+        <value type="int" value="13"/>
+        <value type="int" value="11"/>
+        <value type="int" value="19"/>
+        <value type="int" value="20"/>
+        <value type="int" value="22"/>
+        <value type="int" value="14"/>
+        <value type="int" value="21"/>
+        <value type="int" value="17"/>
+        <value type="int" value="3"/>
+        <value type="int" value="7"/>
+        <value type="int" value="23"/>
+        <value type="int" value="6"/>
+        <value type="int" value="2"/>
+        <value type="int" value="9"/>
+        <value type="int" value="15"/>
+        <value type="int" value="18"/>
+        <value type="int" value="12"/>
+        <value type="int" value="25"/>
+        <value type="int" value="4"/>
+        <value type="int" value="10"/>
+        <value type="int" value="27"/>
+      </property>
+      <property name="background-style" type="uint" value="1"/>
+      <property name="background-rgba" type="array">
+        <value type="double" value="0"/>
+        <value type="double" value="0"/>
+        <value type="double" value="0"/>
+        <value type="double" value="1"/>
+      </property>
+    </property>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-3" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-6" type="string" value="systray">
+      <property name="square-icons" type="bool" value="true"/>
+      <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “soroush phone” active: soroush phone (92%)"/>
+        <value type="string" value="configuring wi-fi network connection “soroush phone”…"/>
+        <value type="string" value="wi-fi network connection “soroush phone” active: soroush phone (99%)"/>
+        <value type="string" value="wi-fi network connection “soroush phone” active: soroush phone (85%)"/>
+        <value type="string" value="gahshomar"/>
+        <value type="string" value="wi-fi network connection “soroush phone” active: soroush phone (95%)"/>
+        <value type="string" value="notes"/>
+        <value type="string" value="wi-fi network connection “soroush phone” active: soroush phone (69%)"/>
+        <value type="string" value="wi-fi network connection “soroush phone” active: soroush phone (89%)"/>
+        <value type="string" value="wi-fi network connection “soroush phone” active: soroush phone (87%)"/>
+        <value type="string" value="wi-fi network connection “soroush phone” active: soroush phone (54%)"/>
+        <value type="string" value="wi-fi network connection “soroush phone” active: soroush phone (90%)"/>
+        <value type="string" value="no network connection"/>
+        <value type="string" value="firewall-applet"/>
+        <value type="string" value="wi-fi network connection “soroush phone” active: soroush phone (65%)"/>
+        <value type="string" value="kde connect indicator"/>
+        <value type="string" value="wi-fi network connection “soroush phone” active: soroush phone (84%)"/>
+        <value type="string" value="wi-fi network connection “soroush phone” active: soroush phone (94%)"/>
+        <value type="string" value="clipman"/>
+        <value type="string" value="wi-fi network connection “soroush phone” active: soroush phone (100%)"/>
+        <value type="string" value="networkmanager applet"/>
+      </property>
+      <property name="known-items" type="array">
+        <value type="string" value="OneDriveGUI"/>
+        <value type="string" value="dropbox"/>
+        <value type="string" value="GoldenDict-ng"/>
+        <value type="string" value="obs"/>
+        <value type="string" value="remmina-icon"/>
+        <value type="string" value="Audacious"/>
+        <value type="string" value="nekoray"/>
+        <value type="string" value="Skype1"/>
+        <value type="string" value="Free Download Manager"/>
+        <value type="string" value="firewall-applet"/>
+        <value type="string" value="Gahshomar-indicator"/>
+        <value type="string" value="TelegramDesktop"/>
+        <value type="string" value="vlc"/>
+        <value type="string" value="qv2ray"/>
+        <value type="string" value="KDE Connect Indicator"/>
+        <value type="string" value="blueman"/>
+      </property>
+      <property name="symbolic-icons" type="bool" value="false"/>
+      <property name="icon-size" type="int" value="22"/>
+    </property>
+    <property name="plugin-9" type="string" value="power-manager-plugin"/>
+    <property name="plugin-10" type="string" value="notification-plugin"/>
+    <property name="plugin-11" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-12" type="string" value="clock">
+      <property name="digital-layout" type="uint" value="2"/>
+      <property name="digital-date-format" type="string" value="%a %d %b"/>
+      <property name="digital-date-font" type="string" value="Sans Bold 10"/>
+      <property name="tooltip-format" type="string" value="%A %d %B %Y"/>
+      <property name="timezone" type="string" value=""/>
+    </property>
+    <property name="plugin-13" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-1" type="string" value="whiskermenu"/>
+    <property name="plugin-4" type="string" value="clock">
+      <property name="mode" type="uint" value="4"/>
+      <property name="tooltip-format" type="string" value="%x"/>
+      <property name="show-military" type="bool" value="false"/>
+      <property name="flash-separators" type="bool" value="true"/>
+      <property name="show-meridiem" type="bool" value="false"/>
+      <property name="show-seconds" type="bool" value="false"/>
+    </property>
+    <property name="plugin-7" type="string" value="docklike"/>
+    <property name="plugin-14" type="string" value="fsguard"/>
+    <property name="plugin-15" type="string" value="xkb">
+      <property name="group-policy" type="uint" value="0"/>
+      <property name="show-notifications" type="bool" value="true"/>
+    </property>
+    <property name="plugin-17" type="string" value="netload"/>
+    <property name="plugin-19" type="string" value="xfce4-sensors-plugin"/>
+    <property name="plugin-20" type="string" value="systemload">
+      <property name="uptime" type="empty">
+        <property name="enabled" type="bool" value="false"/>
+      </property>
+      <property name="network" type="empty">
+        <property name="enabled" type="bool" value="false"/>
+      </property>
+    </property>
+    <property name="clipman" type="empty">
+      <property name="settings" type="empty">
+        <property name="show-qr-code" type="bool" value="true"/>
+      </property>
+      <property name="tweaks" type="empty">
+        <property name="popup-at-pointer" type="bool" value="true"/>
+      </property>
+    </property>
+    <property name="plugin-2" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="known-players" type="string" value="Audacious;Firefox Web Browser;KDE Connect;VLC media player"/>
+    </property>
+    <property name="plugin-18" type="string" value="separator">
+      <property name="expand" type="bool" value="false"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-21" type="string" value="separator">
+      <property name="expand" type="bool" value="false"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-22" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-23" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+      <property name="expand" type="bool" value="true"/>
+    </property>
+    <property name="plugin-25" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-27" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+  </property>
+</channel>
